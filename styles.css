@@ -1,0 +1,29 @@
+
+body{margin: 0; padding: 0;}
+
+/*sin imagen dentro del div, solo imagern de fondo con gradiente*/
+/* .sec1:first-child{
+    height: 400px;
+    background: linear-gradient(to left, hsl(2, 65%, 44%, 0.5) 30%, hsl(212, 80%, 42%, 0.5) 70%), url(img/D_NQ_NP_708433-MLU42808711302_072020-O.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform:rotate(35deg);
+    
+} */
+
+.sec1:first-child{
+    height: 500px;
+    background: linear-gradient(to left, hsl(2, 65%, 44%) 30%, hsl(212, 80%, 42%) 70%);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+}
+
+.sec1:first-child img{
+  opacity: 0.5;
+  transform:rotate(35deg);
+  
+}
